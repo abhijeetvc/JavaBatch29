@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class ConditionalStmt {
+public class ConditionalStmt{
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter number1 : ");
@@ -15,7 +15,7 @@ public class ConditionalStmt {
         int choice=sc.nextInt();
 
         int result=2;
-        switch (choice){
+        switch(choice){
             case 1:
                 result=num1+num2;
                 System.out.println("Addition is: "+result);
@@ -40,6 +40,5 @@ public class ConditionalStmt {
                 System.out.println("Incorrect choice");
                 break;
         }
-
     }
 }
