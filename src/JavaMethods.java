@@ -2,6 +2,8 @@
 // Methods has: a) access modifier, b) return type, c) method name, d) body, e) return statement, f) parameters
 // Access Modifier: 4 types: 1) public, 2) default, 3) protected, 4) private  // used for restrictions based on scope
 
+import java.util.Scanner;
+
 public class JavaMethods {
 
     public void display(){
@@ -17,7 +19,12 @@ public class JavaMethods {
         JavaMethods j=new JavaMethods();
         j.display();
 
-        int result=j.add(10,20);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter value for a: ");
+        int a=sc.nextInt();
+        System.out.println("Enter value for b: ");
+        int b=sc.nextInt();
+        int result=j.add(a,b);
         System.out.println(result);
     }
 }
