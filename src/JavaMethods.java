@@ -16,6 +16,7 @@ public class JavaMethods {
     }
 
     public static void main(String[] args) {
+
         JavaMethods j=new JavaMethods();
         j.display();
 
@@ -24,6 +25,7 @@ public class JavaMethods {
         int a=sc.nextInt();
         System.out.println("Enter value for b: ");
         int b=sc.nextInt();
+
         int result=j.add(a,b);
         System.out.println(result);
     }
