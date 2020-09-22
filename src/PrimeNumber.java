@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeNumber {
 
     public static void main(String[] args) {
-        int a,i=0, count;
+        int a,i=0,count;
        // boolean flag=false;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter range: ");
