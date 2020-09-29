@@ -8,10 +8,10 @@ abstract class DemoTest{
     abstract void display();
 }
 
-public class AbstractClassPrg extends DemoTest{
+public class Check extends DemoTest{
 
     public static void main(String[] args) {
-        AbstractClassPrg a=new AbstractClassPrg();
+        Check a=new Check();
         a.display();
     }
 
